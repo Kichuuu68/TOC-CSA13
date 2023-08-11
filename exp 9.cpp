@@ -26,9 +26,9 @@ int main() {
     printf("Enter a string to check: ");
     scanf("%s", input_string);
     if (simulate_NFA(input_string)) {
-        printf("Accepted\n");
-    } else {
         printf("Rejected\n");
+    } else {
+        printf("Accepted\n");
     }
     return 0;
 }
